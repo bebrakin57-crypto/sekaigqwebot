@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Данные бота (НЕ загружать на GitHub!)
+sekai_users.json
+admin_logs.json
+new_users.json
+support_tickets.json
+support_data.json
+*.db
+*.sqlite3
+
+# Логи
+*.log
+*.tmp
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Токены и секреты
+config.py
+*.token
+*.secret
+*.key
+
+# Railway
+railway.json
+.railway/
+
+# Временные файлы
+*.backup
+*.swp
